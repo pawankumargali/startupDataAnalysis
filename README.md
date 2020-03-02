@@ -1,6 +1,6 @@
 ## 1. About Project:
-Analysis and Visualization of data on startup companies and investments in a particular market and plotting Year on Year Founding and Funding trends.
-Data Source : Crunchbase data on startup companies and investments in AI in Fintech Market till Dec 2018
+- Analysis of data on startup companies and investments in a particular market and and Visualization of Year on Year Founding and Funding trends using Pandas and Seaborn respectively.
+- Data Source : Crunchbase data on startup companies and investments in AI in Fintech Market till Dec 2018
 
 
 ## 2. Raw Data and Output Preview
@@ -10,15 +10,15 @@ Data Source : Crunchbase data on startup companies and investments in AI in Fint
 #### startup market data csv files (Data Source: Crunchbase)
 
 * 'companyData.csv'
-![alt text](file:///c:/Users/pawankumargali/Desktop/rawCompData.png)
+![alt text](https://i.imgur.com/j5ma2DL.png)
 
 * 'investmentData.csv'
-![alt text](file:///c:/Users/pawankumargali/Desktop/rawInvData.png)
+![alt text](https://i.imgur.com/ACn8HOF.png)
 
 #### currency exchnage rates csv file (Data Source: European Central Bank)
 
 * 'historicalCurrencyExchangeRates.csv'
-![alt text](file:///c:/Users/pawankumargali/Desktop/currencyConverterData.png)
+![alt text](https://i.imgur.com/iYY6Bcs.png)
 
 ### 2.b. Output
 
@@ -34,7 +34,7 @@ Output Plots can be previewed in the output/plots/ folder. Previewing two of the
 
 ## 3. Folder Structure:
 
-![alt text](file:///c:/Users/pawankumargali/Desktop/fs1.png)
+![alt text](https://i.imgur.com/ydw3bJO.png)
 
 ### 3.a. Folders:
 
@@ -43,7 +43,7 @@ Output Plots can be previewed in the output/plots/ folder. Previewing two of the
 - Contains startup companies and investments csv files (source: crunchbase)
 - Contains  historical currency exchange rates csv files in currency_exchange_rates/ sub-folder (source: from European Central Bank)
 
-![alt text](file:///c:/Users/pawankumargali/Desktop/raw_dat.png)
+![alt text](https://i.imgur.com/3ii4vFO.png)
 
 
 #### 3.a.ii.input_data/ folder:
@@ -52,7 +52,7 @@ Output Plots can be previewed in the output/plots/ folder. Previewing two of the
 - Also contains formatted currency exchange rates csv files that will be used as reference for
 converting all Funding Amounts to USD during analysis
 
-![alt text](file:///c:/Users/pawankumargali/Desktop/inp_dat.png)
+![alt text](https://i.imgur.com/GF06VXd.png)
 
 
 #### 3.a.iii output/ folder:
@@ -60,7 +60,7 @@ converting all Funding Amounts to USD during analysis
 - extracted data is stored in output excel file and 
 - visulaizations are stored as png files in plots/ folder
 
-![alt text](file:///c:/Users/pawankumargali/Desktop/out_dat.png)
+![alt text](https://i.imgur.com/Of7E938.png)
 
 
 ### 3.b. Files:
@@ -72,5 +72,3 @@ save extracted data and visualization(s) to output/ folder.
 convert raw data csv files from raw_data/ folder, to formatted csv files and save them to input_data/ folder
 
 * Note: All ipynb files are self-explanatory, i.e., how the analysis or formatting is carried out is detailed in the file itself.
-
-    

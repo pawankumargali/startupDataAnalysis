@@ -63,7 +63,7 @@ converting all Funding Amounts to USD during analysis<br>
 ![alt text](https://i.imgur.com/Of7E938.png)<br>
 
 
-### 3.b. Files:
+### 3.b. Root Directory Files:
 
 - ipynb files numbered 1-7 perform analysis on input data from input/ folder and 
 save extracted data and visualization(s) to output/ folder. 
